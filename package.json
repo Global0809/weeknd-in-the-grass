@@ -1,0 +1,22 @@
+{
+  "name": "weeknd-in-the-grass",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "node build.mjs",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "dependencies": {
+    "react": "19.2.6",
+    "react-dom": "19.2.6",
+    "lucide-react": "1.31.0",
+    "three": "0.184.0",
+    "gsap": "3.14.2"
+  },
+  "devDependencies": {
+    "vite": "8.0.13",
+    "@vitejs/plugin-react": "6.0.2"
+  }
+}
